@@ -6,10 +6,12 @@ import javax.swing.JPanel;
 
 public class GamePanel extends JPanel implements Runnable
 {
-    //  SCREEN SETTINGS
+    // TILE SETTINGS
     private final int ORIGINAL_TILE_SIZE = 16;
     private final int SCALE = 3;
     private final int TILE_SIZE = ORIGINAL_TILE_SIZE * SCALE;
+
+    //  SCREEN SETTINGS
     private final int COLS = 16;
     private final int ROW = 12;
     private final int SCREEN_WIDTH =  TILE_SIZE * COLS;
