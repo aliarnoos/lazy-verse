@@ -27,5 +27,9 @@ public class GamePanelFactory extends JFrame
         GAME_FRAME.pack();
 
         GAME_FRAME.setVisible(true);
+
+        GAME_PANEL.setGameObjects();
+
+        GAME_PANEL.setGameThread();
     }
 }

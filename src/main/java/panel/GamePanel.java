@@ -35,6 +35,10 @@ public class GamePanel extends JPanel implements Runnable
         this.setFocusable(true);
     }
 
+    public void setGameObjects(){
+
+    }
+
     public void setGameThread()
     {
         GAME_THREAD = new Thread(this);
